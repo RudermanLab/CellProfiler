@@ -49,4 +49,4 @@ install:
   - pip install --requirement requirements.txt
   - pip install --upgrade scipy
 script:
-  - python setup.py test -a -x
+  - py.test -x
